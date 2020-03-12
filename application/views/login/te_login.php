@@ -46,10 +46,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-4">
-            <a href="<?php echo base_url('login/register') ?>" type="submit" class="btn btn-default btn-block">Daftar</a>
-          </div>
-          <div class="col-8">
+          <div class="col-12">
             <button type="submit" class="btn btn-primary btn-block">M a s u k</button>
           </div>
           <!-- /.col -->

@@ -43,26 +43,11 @@
 
       <div id="logo" class="pull-left">
         <h1><a href="<?php echo base_url() ?>" class="scrollto"><span>e</span>Pengaduan</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
       </div>
 
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li class="menu-active"><a href="#hero">Home</a></li>
-          <li><a href="#features">Alur</a></li>
-<!--
-           <li><a href="#pricing">Pengaduan</a></li>
-           <li><a href="#blog">Blog</a></li>
-           <li><a href="#newsletter">Contact</a></li>
--->
-          <li><a href="<?php echo base_url('login') ?>">Login</a></li>
-          <li><a href="<?php echo base_url('login/register') ?>">Register</a></li>
-        </ul>
-      </nav><!-- #nav-menu-container -->
+      <?php $this->load->view('portal/portal_navmenu') ?>
     </div>
-  </header><!-- #header -->
-
+  </header>
   <!--==========================
     Hero Section
   ============================-->
