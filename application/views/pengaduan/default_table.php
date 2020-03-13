@@ -35,7 +35,7 @@
                   <td>Sumardi</td>
                   <td><span class="badge badge-warning">Menunggu</span></td>
                   <td>
-                    <a href=""><i  class="nav-icon fa fa-search"></i> Detail</a>
+                    <a href="<?php echo base_url('pengaduan/detail') ?>"><i  class="nav-icon fa fa-search"></i> Detail</a>
                   </td>
                 </tr>
                 <tr>
@@ -46,7 +46,7 @@
                   <td>Sumardi</td>
                   <td><span class="badge badge-success">Selesai</span></td>
                   <td>
-                    <a href=""><i  class="nav-icon fa fa-search"></i> Detail</a>
+                    <a href="<?php echo base_url('pengaduan/detail') ?>"><i  class="nav-icon fa fa-search"></i> Detail</a>
                   </td>
                 </tr>
                 <tr>
@@ -57,7 +57,7 @@
                   <td>Sumardi</td>
                   <td><span class="badge badge-warning">Menunggu</span></td>
                   <td>
-                    <a href=""><i  class="nav-icon fa fa-search"></i> Detail</a>
+                    <a href="<?php echo base_url('pengaduan/detail') ?>"><i  class="nav-icon fa fa-search"></i> Detail</a>
                   </td>
                 </tr>
                 </tbody>

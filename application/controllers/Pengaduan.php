@@ -18,4 +18,9 @@ class Pengaduan extends CI_Controller{
 		$this->template->load_admin('index','pengaduan/default_table',$data);
 	}
 
+	public function detail(){
+		$data['title'] = "Pengaduan";
+		$this->template->load_admin('index','pengaduan/default_detail',$data);
+	}
+
 }
